@@ -35,7 +35,7 @@ export default function Header() {
           {t("title")}
         </Link>
 
-        <section className="flex items-center justify-center gap-3">
+        <section className="flex items-center justify-center gap-1 md:gap-3">
           <section className="hidden items-center justify-center gap-3 lg:flex">
             <Link
               className="relative flex items-center gap-2 font-semibold text-dark-50 transition-colors duration-100 hover:text-dark-400 active:text-dark-900 dark:text-dark-50 dark:hover:text-light-950 active:dark:text-primary-500"

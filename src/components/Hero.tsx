@@ -33,7 +33,6 @@ export default function Hero() {
         </h2>
         <h3
           className="w-full text-5xl leading-[1.5] text-[#313131] md:text-5xl"
-          style={{ lineHeight: "90px !important" }}
         >
           {t("title3")}
         </h3>
