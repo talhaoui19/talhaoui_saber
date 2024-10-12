@@ -8,7 +8,6 @@ import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 
 
-
 export default function Header() {
   const pathname = usePathname();
   const switchToEnglish = () => {

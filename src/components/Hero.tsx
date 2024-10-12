@@ -21,7 +21,7 @@ export default function Hero() {
           </Link>
         </p>
       </section>
-      <section className="label-text flex flex-col gap-5 bg-gradient-to-b from-dark-900 via-dark-800 to-dark-500 bg-clip-text font-bold dark:from-light-50 dark:via-light-100 dark:to-light-500"
+      <section className="label-text flex flex-col md:gap-5 bg-gradient-to-b from-dark-900 via-dark-800 to-dark-500 bg-clip-text font-bold dark:from-light-50 dark:via-light-100 dark:to-light-500"
       >
         <h1 className="w-full text-6xl text-black md:text-7xl"
         >
