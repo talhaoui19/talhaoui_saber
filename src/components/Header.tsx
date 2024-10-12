@@ -161,6 +161,27 @@ export default function Header() {
               </svg>
             </Link>
           )}
+          <button
+            type="button"
+            aria-haspopup="dialog"
+            aria-expanded="false"
+            aria-controls="radix-:R14mbtta:"
+            data-state="closed"
+            className="items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-8 w-8 flex lg:hidden"
+          >
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              strokeWidth={0}
+              viewBox="0 0 24 24"
+              className="h-4 w-4"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" />
+            </svg>
+          </button>
         </section>
       </header>
     </>

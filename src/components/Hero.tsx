@@ -28,7 +28,7 @@ export default function Hero() {
           {" "}
           {t("title1")}
         </h1>
-        <h2 className="w-full text-6xl leading-[1.5] text-[#191919] md:text-6xl md:mt-5">
+        <h2 className="w-full text-6xl leading-[1.5] text-[#191919] md:text-6xl">
           {t("title2")}
         </h2>
         <h3
