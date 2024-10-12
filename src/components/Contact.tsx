@@ -10,7 +10,8 @@ export default function Contact() {
       <section className="flex items-center gap-3">
         <Link
           className="contact_link inline-flex items-center justify-center gap-3 h-6 px-3 text-sm font-medium text-dark-500 border border-light-500 rounded duration-100 hover:bg-light-200 hover:text-dark-600 hover:border-transparent active:bg-light-100 active:text-dark-900 dark:text-light-500 dark:hover:bg-dark-300 dark:hover:text-light-200 dark:active:bg-dark-200 dark:active:text-light-50 dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2"
-          href="tel:+213782903876"
+          href={"mailto:talhaoui.sabir@gmail.com"}
+          target="_blank"
         >
           {t("link1")}
           <svg
@@ -29,7 +30,6 @@ export default function Contact() {
             <path d="M14.05 6A5 5 0 0 1 18 10" />
           </svg>
         </Link>
-
         <Link
           className="contact_link inline-flex items-center justify-center gap-3 h-6 px-3 text-sm font-medium text-dark-500 border border-light-500 rounded duration-100 hover:bg-light-200 hover:text-dark-600 hover:border-transparent active:bg-light-100 active:text-dark-900 dark:text-light-500 dark:hover:bg-dark-300 dark:hover:text-light-200 dark:active:bg-dark-200 dark:active:text-light-50 dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2"
           href="mailto:moncef@selance.com"
