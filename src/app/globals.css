@@ -521,3 +521,11 @@ code {
 .phoneMenu {
   transition: all 0.4s ease-in-out;
 }
+
+.dark\:border-dark-700:is(.dark *) {
+  border-color: hsl(0 0% 10%/1);
+}
+
+.popover-bg:is(.dark *) {
+  background-color: hsl(0 0% 7% / 1);
+}
