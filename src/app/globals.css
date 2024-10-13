@@ -529,3 +529,7 @@ code {
 .popover-bg:is(.dark *) {
   background-color: hsl(0 0% 7% / 1);
 }
+
+.fill {
+  color: #464646 !important;
+}
