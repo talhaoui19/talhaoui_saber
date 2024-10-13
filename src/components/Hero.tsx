@@ -28,11 +28,11 @@ export default function Hero() {
           {" "}
           {t("title1")}
         </h1>
-        <h2 className="w-full text-6xl leading-[1.5] text-[#191919] md:text-6xl">
+        <h2 className="w-full text-6xl text-[#191919] md:text-6xl">
           {t("title2")}
         </h2>
         <h3
-          className="w-full text-5xl leading-[1.5] text-[#313131] md:text-5xl"
+          className="w-full text-5xl text-[#313131] md:text-5xl"
         >
           {t("title3")}
         </h3>
