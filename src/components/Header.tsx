@@ -103,7 +103,7 @@ export default function Header() {
                     }}
                     className="motion_div header bg-white text-center text-black text-xs font-medium py-1 px-2 rounded shadow-lg whitespace-nowrap"
                   >
-                    change language to Arabic
+                    Change To Arabic
                   </motion.div>
                 </div>
               )}
