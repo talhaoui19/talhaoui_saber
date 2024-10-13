@@ -21,18 +21,18 @@ export default function Hero() {
           </Link>
         </p>
       </section>
-      <section className="label-text flex flex-col md:gap-5 bg-gradient-to-b from-dark-900 via-dark-800 to-dark-500 bg-clip-text font-bold dark:from-light-50 dark:via-light-100 dark:to-light-500"
+      <section className="label-text flex flex-col gap-4 bg-gradient-to-b from-dark-900 via-dark-800 to-dark-500 bg-clip-text font-bold dark:from-light-50 dark:via-light-100 dark:to-light-500"
       >
-        <h1 className="w-full text-6xl text-black md:text-7xl"
+        <h1 className="w-full text-6xl leading-[1.2] text-black md:text-7xl"
         >
           {" "}
           {t("title1")}
         </h1>
-        <h2 className="w-full text-6xl text-[#191919] md:text-6xl">
+        <h2 className="w-full text-6xl leading-[1.2] text-[#191919] md:text-6xl">
           {t("title2")}
         </h2>
         <h3
-          className="w-full text-5xl text-[#313131] md:text-5xl"
+          className="w-full text-5xl leading-[1.5] text-[#313131] md:text-5xl"
         >
           {t("title3")}
         </h3>
