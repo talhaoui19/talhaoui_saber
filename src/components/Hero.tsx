@@ -32,7 +32,7 @@ export default function Hero() {
           {t("title2")}
         </h2>
         <h3
-          className="w-full text-5xl leading-[1.6] text-[#313131] md:text-5xl"
+          className="w-full text-5xl leading-[1.7] text-[#313131] md:text-5xl"
         >
           {t("title3")}
         </h3>
