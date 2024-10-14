@@ -243,6 +243,10 @@ a {
 }
 
 @media (max-width: 991px) {
+  #projects .motion_div {
+    left: 0;
+    right: 0;
+  }
   :lang(ar) #projects .motion_div {
     left: 0;
     right: 0;
@@ -530,6 +534,3 @@ code {
   background-color: hsl(0 0% 7% / 1);
 }
 
-.fill {
-  color: #464646 !important;
-}
