@@ -6,7 +6,7 @@ import { ToggleTheme } from "@/components";
 import useHover from "../hooks/useHover";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function Header() {
@@ -14,7 +14,7 @@ export default function Header() {
 
   const locale = useLocale();
   const t = useTranslations("Header");
-
+  const tMenu = useTranslations("Menu");
   const { isHovered, handleMouseEnter, handleMouseLeave } = useHover();
 
   const [ShowMenuphone, setShowMenuphone] = useState(true);
@@ -24,14 +24,14 @@ export default function Header() {
 
   const router = useRouter();
 
- const alternateLocale = locale === "en" ? "ar" : "en";
+  const alternateLocale = locale === "en" ? "ar" : "en";
 
- // دالة لتغيير اللغة
- const changeLanguage = () => {
-   const currentPath = pathname;
-   const newPath = currentPath.replace(`/${locale}`, `/${alternateLocale}`);
-   router.replace(newPath);
- };
+  // CHANGE LANGUAGE
+  const changeLanguage = () => {
+    const currentPath = pathname;
+    const newPath = currentPath.replace(`/${locale}`, `/${alternateLocale}`);
+    router.replace(newPath);
+  };
 
   return (
     // START HEADER SECTION
@@ -183,18 +183,22 @@ export default function Header() {
             data-state="closed"
             className="items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-8 w-8 flex lg:hidden"
           >
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              strokeWidth={0}
-              viewBox="0 0 24 24"
-              className="h-4 w-4"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" />
-            </svg>
+            {ShowMenuphone ? (
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 24 24"
+                className="h-4 w-4"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" />
+              </svg>
+            ) : (
+              (<span className="text-base font-bold">X</span>)
+            )}
           </button>
 
           <div
@@ -205,7 +209,6 @@ export default function Header() {
             data-state="open"
             className="phoneMenu absolute z-50 popover-bg border-dashed border-light-200 dark:border-dark-700 label-text transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500 inset-y-0 left-0 h-2/6 w-full border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm flex flex-col gap-0 px-3 pt-14 lg:hidden"
             tabIndex={-1}
-            // style={{ pointerEvents: "auto" }}
             style={{
               top: ShowMenuphone ? "-660px" : "50px",
               opacity: ShowMenuphone ? "0" : "1",
@@ -227,7 +230,7 @@ export default function Header() {
               >
                 <path d="M19 21.0001H5C4.44772 21.0001 4 20.5524 4 20.0001V11.0001L1 11.0001L11.3273 1.61162C11.7087 1.26488 12.2913 1.26488 12.6727 1.61162L23 11.0001L20 11.0001V20.0001C20 20.5524 19.5523 21.0001 19 21.0001ZM6 19.0001H18V9.15757L12 3.70302L6 9.15757V19.0001Z" />
               </svg>
-              <span className="text-center">الرئيسية</span>
+              <span className="text-center">{tMenu("home")}</span>
             </Link>
             <Link
               className="link flex h-10 items-center gap-3 border-b border-dashed border-light-200 px-3 text-lg transition-all duration-75 dark:border-dark-700"
@@ -245,7 +248,7 @@ export default function Header() {
               >
                 <path d="M9.97308 18H14.0269C14.1589 16.7984 14.7721 15.8065 15.7676 14.7226C15.8797 14.6006 16.5988 13.8564 16.6841 13.7501C17.5318 12.6931 18 11.385 18 10C18 6.68629 15.3137 4 12 4C8.68629 4 6 6.68629 6 10C6 11.3843 6.46774 12.6917 7.31462 13.7484C7.40004 13.855 8.12081 14.6012 8.23154 14.7218C9.22766 15.8064 9.84103 16.7984 9.97308 18ZM14 20H10V21H14V20ZM5.75395 14.9992C4.65645 13.6297 4 11.8915 4 10C4 5.58172 7.58172 2 12 2C16.4183 2 20 5.58172 20 10C20 11.8925 19.3428 13.6315 18.2443 15.0014C17.624 15.7748 16 17 16 18.5V21C16 22.1046 15.1046 23 14 23H10C8.89543 23 8 22.1046 8 21V18.5C8 17 6.37458 15.7736 5.75395 14.9992ZM13 10.0048H15.5L11 16.0048V12.0048H8.5L13 6V10.0048Z" />
               </svg>
-              <span className="text-center">مدونة</span>
+              <span className="text-center"> {tMenu("blog")}</span>
             </Link>
           </div>
         </section>

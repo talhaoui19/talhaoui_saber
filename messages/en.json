@@ -3,6 +3,10 @@
     "title": "طلحاوي صابر",
     "blog": "Blog"
   },
+  "Menu" : {
+    "home" :"Home",
+    "blog" :"Blog"
+  },
   "Hero": {
     "subTitle": "Explore my recent blog posts",
     "here": "here",
