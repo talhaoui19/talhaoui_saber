@@ -13,14 +13,14 @@ export default function Header() {
   const pathname = usePathname();
   const switchToEnglish = () => {
     if (pathname.startsWith('/ar')) {
-      return pathname.replace(/^\/ar/, ""); // إزالة /ar
+      return pathname.replace(/^\/ar/, "/en"); 
     }
     return pathname;
   };
   
   const switchToArabic = () => {
     if (!pathname.startsWith('/ar')) {
-      return `/ar${pathname}`; // إضافة /ar إذا لم يكن موجود
+      return `/ar${pathname}`;
     }
     return pathname;
   };
