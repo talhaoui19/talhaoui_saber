@@ -127,11 +127,10 @@ export default function Header() {
           )}
           {locale === "ar" && (
             <Link
-              className="relative inline-flex items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-6 w-6"
-              data-state="closed"
               href={switchToEnglish()}
               onMouseEnter={() => handleMouseEnter("changeToEnglish")}
               onMouseLeave={() => handleMouseLeave("changeToEnglish")}
+              className="relative inline-flex items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-6 w-6"
             >
               {isHovered.changeToEnglish && (
                 <div className="absolute bottom-[-35px] left-1/2 -translate-x-1/2">
