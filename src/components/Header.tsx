@@ -12,12 +12,17 @@ import { useState } from "react";
 export default function Header() {
   const pathname = usePathname();
   const switchToEnglish = () => {
-    return pathname.replace(/^\/ar/, "/en");
+    if (pathname.startsWith('/ar')) {
+      return pathname.replace(/^\/ar/, "/en");
+    }
+    return pathname;  
   };
 
   const switchToArabic = () => {
-    const arabicPath = `/ar${pathname}`;
-    return arabicPath;
+    if (!pathname.startsWith('/ar')) {
+      return `/ar${pathname}`;
+    }
+    return pathname;
   };
   const locale = useLocale();
   const t = useTranslations("Header");
