@@ -1,8 +1,9 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function Hero() {
   const t = useTranslations("Hero");
+  const locale = useLocale();
   return (
     // START HERO SECTION
     <>
@@ -15,25 +16,21 @@ export default function Hero() {
           {/* */}{" "}
           <Link
             className="text-primary-500 transition-all duration-75 hover:text-primary-400 hover:underline"
-            href="/blog"
+            href={`${locale}/blog`}
           >
             {t("here")}
           </Link>
         </p>
       </section>
-      <section className="label-text flex flex-col gap-4 bg-gradient-to-b from-dark-900 via-dark-800 to-dark-500 bg-clip-text font-bold dark:from-light-50 dark:via-light-100 dark:to-light-500"
-      >
-        <h1 className="w-full text-6xl leading-[1.2] text-black md:text-7xl"
-        >
+      <section className="label-text flex flex-col gap-4 bg-gradient-to-b from-dark-900 via-dark-800 to-dark-500 bg-clip-text font-bold dark:from-light-50 dark:via-light-100 dark:to-light-500">
+        <h1 className="w-full text-6xl leading-[1.2] text-black md:text-7xl">
           {" "}
           {t("title1")}
         </h1>
         <h2 className="w-full text-6xl leading-[1.2] text-[#191919] md:text-6xl">
           {t("title2")}
         </h2>
-        <h3
-          className="w-full text-5xl md:text-5xl leading-[1.8] text-[#313131] "
-        >
+        <h3 className="w-full text-5xl md:text-5xl leading-[1.8] text-[#313131] ">
           {t("title3")}
         </h3>
       </section>

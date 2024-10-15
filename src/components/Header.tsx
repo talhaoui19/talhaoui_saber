@@ -3,44 +3,44 @@
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { ToggleTheme } from "@/components";
-import useHover from '../hooks/useHover';
+import useHover from "../hooks/useHover";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { useState } from "react";
-
+import { useRouter } from "next/navigation";
 
 export default function Header() {
   const pathname = usePathname();
-  const switchToEnglish = () => {
-    if (pathname.startsWith('/ar')) {
-      return pathname.replace(/^\/ar/, "/en"); 
-    }
-    return pathname;
-  };
-  
-  const switchToArabic = () => {
-    if (!pathname.startsWith('/ar')) {
-      return `/ar${pathname}`;
-    }
-    return pathname;
-  };
+
   const locale = useLocale();
   const t = useTranslations("Header");
 
   const { isHovered, handleMouseEnter, handleMouseLeave } = useHover();
 
-
   const [ShowMenuphone, setShowMenuphone] = useState(true);
   const ShowMenuphoneClick = () => {
     setShowMenuphone(!ShowMenuphone);
   };
+
+  const router = useRouter();
+
+ const alternateLocale = locale === "en" ? "ar" : "en";
+
+ // دالة لتغيير اللغة
+ const changeLanguage = () => {
+   const currentPath = pathname;
+   const newPath = currentPath.replace(`/${locale}`, `/${alternateLocale}`);
+   router.replace(newPath);
+ };
+
   return (
     // START HEADER SECTION
     <>
       <header className="top-0 z-50 flex h-14 w-full items-center justify-between px-6 sm:px-12 md:px-16 lg:px-36">
         <Link
-          className={`logo_name text-black text-xl ${locale === "ar" ? "mb-2" : ""
-            } rounded-full transition-colors duration-75 hover:bg-primary-500/50 dark:hover:bg-dark-700/50`}
+          className={`logo_name text-black text-xl ${
+            locale === "ar" ? "mb-2" : ""
+          } rounded-full transition-colors duration-75 hover:bg-primary-500/50 dark:hover:bg-dark-700/50`}
           href="/"
         >
           {t("title")}
@@ -88,10 +88,10 @@ export default function Header() {
           </section>
           <ToggleTheme />
           {locale === "en" && (
-            <Link
+            <button
               className="relative inline-flex items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-6 w-6"
               data-state="closed"
-              href={switchToArabic()}
+              onClick={changeLanguage}
               onMouseEnter={() => handleMouseEnter("changeToArabic")}
               onMouseLeave={() => handleMouseLeave("changeToArabic")}
             >
@@ -128,11 +128,11 @@ export default function Header() {
                   stroke-dasharray="1px 1px"
                 ></path>
               </svg>
-            </Link>
+            </button>
           )}
           {locale === "ar" && (
-            <Link
-              href={switchToEnglish()}
+            <button
+              onClick={changeLanguage}
               onMouseEnter={() => handleMouseEnter("changeToEnglish")}
               onMouseLeave={() => handleMouseLeave("changeToEnglish")}
               className="relative inline-flex items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-6 w-6"
@@ -170,7 +170,7 @@ export default function Header() {
                   strokeDasharray="1px 1px"
                 />
               </svg>
-            </Link>
+            </button>
           )}
           <button
             type="button"
