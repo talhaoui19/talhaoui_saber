@@ -22,7 +22,7 @@ export interface Post {
 async function fetchPosts(): Promise<Post[]> {
   try {
     const response = await fetch(
-      `https://talhaoui-saber-se.vercel.app/api/posts`,
+      `https://talhaoui-saber-s.vercel.app/api/posts`,
       {
         cache: "no-store",
       }
