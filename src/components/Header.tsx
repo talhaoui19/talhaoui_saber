@@ -21,7 +21,6 @@ export default function Header() {
     setShowMenuphone(!ShowMenuphone);
   };
 
-
   console.log(locale);
 
   const locales = ["en", "ar"];
@@ -221,12 +220,12 @@ export default function Header() {
                 version="1.1"
                 fill="#4b4b4b"
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
                 <g
                   id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
 
                 <g id="SVGRepo_iconCarrier">
@@ -235,16 +234,16 @@ export default function Header() {
                   <g
                     id="Page-1"
                     stroke="none"
-                    stroke-width="1"
+                    strokeWidth="1"
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                   >
                     {" "}
                     <g id="Close">
                       {" "}
                       <rect
                         id="Rectangle"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                         x="0"
                         y="0"
                         width="24"
@@ -259,8 +258,8 @@ export default function Header() {
                         y2="16.9999"
                         id="Path"
                         stroke="#4b4b4b"
-                        stroke-width="2"
-                        stroke-linecap="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
                       >
                         {" "}
                       </line>{" "}
@@ -271,8 +270,8 @@ export default function Header() {
                         y2="16.9999"
                         id="Path"
                         stroke="#4b4b4b"
-                        stroke-width="2"
-                        stroke-linecap="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
                       >
                         {" "}
                       </line>{" "}

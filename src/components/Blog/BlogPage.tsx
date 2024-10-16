@@ -3,7 +3,9 @@
 import BlogClient from "./BlogClient";
 
 async function fetchPosts() {
-  const response = await fetch("https://talhaoui-saber-s.vercel.app/api/posts", {
+  const baseUrl = process.env.BASE_URL
+  const localUrl = process.env.LOCAL_URL
+  const response = await fetch(process.env.NODE_ENV==='production'? `${baseUrl}api/posts`:`${localUrl}api/posts` , {
     cache: "no-store",
   });
   if (!response.ok) {

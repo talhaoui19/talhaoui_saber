@@ -170,7 +170,7 @@ export const svgIcons: Record<string, JSX.Element> = {
       viewBox="0 0 101 101"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <path
           d="M57.8 27.2 57.7.3h-15l.1 26.9 7.5 10.3 7.5-10.3zm-15 46.1v27h15v-27L50.3 63l-7.5 10.3z"
           fill="#FFF"
