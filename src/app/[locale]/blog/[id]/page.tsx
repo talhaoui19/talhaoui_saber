@@ -11,7 +11,7 @@ interface Post {
 }
 
 async function fetchPost(id: string): Promise<Post | null> {
-  const response = await fetch(`https://talhaoui-saber-se.vercel.app/api/posts/${id}`, {
+  const response = await fetch(`https://talhaoui-saber-s.vercel.app/api/posts/${id}`, {
     cache: "no-store",
   });
 
