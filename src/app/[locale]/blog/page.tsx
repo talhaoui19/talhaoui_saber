@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: "مدونة طلحاوي صابر التقنية | رؤية في تطوير و هندسة البرمجيات",
   description:
     "مدونة تركز على تطوير البرمجيات وهندستها، تقدم رؤى وأفكار جديدة.",
+  keywords:
+    "مطور فول ستاك, مطور جزائري, تطوير الويب, هندسة البرمجيات, مدون تقني, مدونة تقنية, تطوير الويب, هندسة البرمجيات, مطور جزائري, تطوير فول ستاك, نصائح البرمجة, اتجاهات التكنولوجيا",
 };
 
 export interface Post {
@@ -19,11 +21,12 @@ export interface Post {
 
 async function fetchPosts(): Promise<Post[]> {
   try {
-
-
-    const response = await fetch(`https://talhaoui-saber-se.vercel.app/api/posts`, {
-      cache: "no-store",
-    });
+    const response = await fetch(
+      `https://talhaoui-saber-se.vercel.app/api/posts`,
+      {
+        cache: "no-store",
+      }
+    );
 
     if (!response.ok) {
       throw new Error(`Failed to fetch posts: ${response.statusText}`);
