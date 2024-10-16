@@ -3,7 +3,7 @@
 import BlogClient from "./BlogClient";
 
 async function fetchPosts() {
-  const response = await fetch("https://talhaoui-saber-se.vercel.app/api/posts", {
+  const response = await fetch("https://talhaoui-saber-s.vercel.app/api/posts", {
     cache: "no-store",
   });
   if (!response.ok) {
