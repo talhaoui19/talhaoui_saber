@@ -7,7 +7,6 @@ import useHover from "../hooks/useHover";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 
 export default function Header() {
   const pathName = usePathname();
