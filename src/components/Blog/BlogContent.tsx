@@ -1,8 +1,10 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { CopyButton, SocialMediaButtons, SocialShareButtons } from "..";
 import Link from "next/link";
+import CopyButton from "../CopyButton";
+import SocialShareButtons from "../SocialMediaButtons";
+import { SocialMediaButtons } from "..";
 
 // BlogContent component that accepts post data as props
 interface BlogContentProps {

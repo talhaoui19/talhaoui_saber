@@ -1,11 +1,14 @@
 import { NextResponse } from "next/server";
 import { connectMongoDB } from "../../../../lib/mongodb";
-import PostModal from "../../../../lib/models/Post";
+import { PostModal } from "@/lib/models/Post";
 
-export async function GET(req, { params }) {
+export async function GET(
+  request: Request,
+  { params: { id } }: { params: { id: string } }
+) {
   try {
     await connectMongoDB();
-    const { id } = params;
+
     const post = await PostModal.findById(id).lean();
 
     if (!post) {

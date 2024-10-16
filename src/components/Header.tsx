@@ -6,11 +6,11 @@ import { ToggleTheme } from "@/components";
 import useHover from "../hooks/useHover";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function Header() {
-  const pathname = usePathname();
+  const pathName = usePathname();
 
   const locale = useLocale();
   const t = useTranslations("Header");
@@ -22,15 +22,32 @@ export default function Header() {
     setShowMenuphone(!ShowMenuphone);
   };
 
-  const router = useRouter();
 
-  const alternateLocale = locale === "en" ? "ar" : "en";
+  console.log(locale);
 
+  const locales = ["en", "ar"];
   // CHANGE LANGUAGE
-  const changeLanguage = () => {
-    const currentPath = pathname;
-    const newPath = currentPath.replace(`/${locale}`, `/${alternateLocale}`);
-    router.replace(newPath);
+  const changeLanguage = (newLocale: "en" | "ar") => {
+    // If no pathname, return just the locale
+    if (!pathName) return `/${newLocale}`;
+
+    // Get current segments
+    const segments = pathName.split("/").filter(Boolean); // filter(Boolean) removes empty strings
+
+    // If we already have a locale prefix
+    if (locales.includes(segments[0])) {
+      segments[0] = newLocale; // Replace existing locale
+    } else {
+      segments.unshift(newLocale); // Add locale at the beginning
+    }
+
+    // Special case: if it's just the locale, return /{locale}
+    if (segments.length === 1) {
+      return `/${newLocale}`;
+    }
+
+    // Join segments and ensure proper formatting
+    return `/${segments.join("/")}`;
   };
 
   return (
@@ -88,10 +105,10 @@ export default function Header() {
           </section>
           <ToggleTheme />
           {locale === "en" && (
-            <button
+            <Link
+              href={changeLanguage("ar")}
               className="relative inline-flex items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-6 w-6"
               data-state="closed"
-              onClick={changeLanguage}
               onMouseEnter={() => handleMouseEnter("changeToArabic")}
               onMouseLeave={() => handleMouseLeave("changeToArabic")}
             >
@@ -128,11 +145,11 @@ export default function Header() {
                   stroke-dasharray="1px 1px"
                 ></path>
               </svg>
-            </button>
+            </Link>
           )}
           {locale === "ar" && (
-            <button
-              onClick={changeLanguage}
+            <Link
+              href={changeLanguage("en")}
               onMouseEnter={() => handleMouseEnter("changeToEnglish")}
               onMouseLeave={() => handleMouseLeave("changeToEnglish")}
               className="relative inline-flex items-center duration-100 border-dashed justify-center whitespace-nowrap rounded text-sm font-medium dark:ring-offset-dark-500 ring-offset-light-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-dark-500 dark:text-dark-200 dark:hover:bg-dark-800 dark:active:bg-dark-700 hover:bg-light-400 acitve:bg-light-300 h-6 w-6"
@@ -170,7 +187,7 @@ export default function Header() {
                   strokeDasharray="1px 1px"
                 />
               </svg>
-            </button>
+            </Link>
           )}
           <button
             type="button"

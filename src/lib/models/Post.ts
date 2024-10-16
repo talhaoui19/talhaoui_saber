@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-const mongoose = require("mongoose");
+import mongoose from 'mongoose'
 const Schema = mongoose.Schema;
 const models = mongoose.models;
 
@@ -26,6 +25,5 @@ const postSchema = new Schema({
   },
 });
 
-const PostModal = models.Post || mongoose.model("Post", postSchema);
+export const PostModal = models.Post || mongoose.model("Post", postSchema);
 
-module.exports = PostModal;

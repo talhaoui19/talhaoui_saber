@@ -1,5 +1,5 @@
+import { PostModal } from "@/lib/models/Post";
 import { connectMongoDB } from "../../../lib/mongodb";
-import PostModal from "../../../lib/models/Post";
 
 export async function GET() {
   await connectMongoDB();
