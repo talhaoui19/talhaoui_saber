@@ -1,0 +1,1018 @@
+<svg
+            id="Artwork"
+            xmlns="http://www.w3.org/2000/svg"
+            width="2560"
+            height="1440"
+            viewBox="0 0 2560 1440"
+          >
+            <polygon
+              className="star slow"
+              points="1562 1118 1559 1118 1559 1115 1557 1115 1557 1118 1554 1118 1554 1120 1557 1120 1557 1123 1559 1123 1559 1120 1562 1120 1562 1118"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="1075 1019 1072 1019 1072 1016 1070 1016 1070 1019 1067 1019 1067 1021 1070 1021 1070 1024 1072 1024 1072 1021 1075 1021 1075 1019"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="745 1062 742 1062 742 1059 740 1059 740 1062 737 1062 737 1064 740 1064 740 1067 742 1067 742 1064 745 1064 745 1062"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="649 797 646 797 646 794 644 794 644 797 641 797 641 799 644 799 644 802 646 802 646 799 649 799 649 797"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1353 1050 1350 1050 1350 1047 1348 1047 1348 1050 1345 1050 1345 1052 1348 1052 1348 1055 1350 1055 1350 1052 1353 1052 1353 1050"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="923 1143 920 1143 920 1140 918 1140 918 1143 915 1143 915 1145 918 1145 918 1148 920 1148 920 1145 923 1145 923 1143"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="659 1132 656 1132 656 1129 654 1129 654 1132 651 1132 651 1134 654 1134 654 1137 656 1137 656 1134 659 1134 659 1132"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="1527 1067 1524 1067 1524 1064 1522 1064 1522 1067 1519 1067 1519 1069 1522 1069 1522 1072 1524 1072 1524 1069 1527 1069 1527 1067"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="2179 696 2176 696 2176 693 2174 693 2174 696 2171 696 2171 698 2174 698 2174 701 2176 701 2176 698 2179 698 2179 696"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1108 1150 1105 1150 1105 1147 1103 1147 1103 1150 1100 1150 1100 1152 1103 1152 1103 1155 1105 1155 1105 1152 1108 1152 1108 1150"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="786 871 783 871 783 868 781 868 781 871 778 871 778 873 781 873 781 876 783 876 783 873 786 873 786 871"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="542 716 539 716 539 713 537 713 537 716 534 716 534 718 537 718 537 721 539 721 539 718 542 718 542 716"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="656 584 653 584 653 581 651 581 651 584 648 584 648 586 651 586 651 589 653 589 653 586 656 586 656 584"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="546 923 543 923 543 920 541 920 541 923 538 923 538 925 541 925 541 928 543 928 543 925 546 925 546 923"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="782 666 779 666 779 663 777 663 777 666 774 666 774 668 777 668 777 671 779 671 779 668 782 668 782 666"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="975 487 972 487 972 484 970 484 970 487 967 487 967 489 970 489 970 492 972 492 972 489 975 489 975 487"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1858 1157 1855 1157 1855 1154 1853 1154 1853 1157 1850 1157 1850 1159 1853 1159 1853 1162 1855 1162 1855 1159 1858 1159 1858 1157"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1686 918 1683 918 1683 915 1681 915 1681 918 1678 918 1678 920 1681 920 1681 923 1683 923 1683 920 1686 920 1686 918"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1725 1061 1722 1061 1722 1058 1720 1058 1720 1061 1717 1061 1717 1063 1720 1063 1720 1066 1722 1066 1722 1063 1725 1063 1725 1061"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1777 792 1774 792 1774 789 1772 789 1772 792 1769 792 1769 794 1772 794 1772 797 1774 797 1774 794 1777 794 1777 792"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1546 471 1543 471 1543 468 1541 468 1541 471 1538 471 1538 473 1541 473 1541 476 1543 476 1543 473 1546 473 1546 471"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="444 518 441 518 441 515 439 515 439 518 436 518 436 520 439 520 439 523 441 523 441 520 444 520 444 518"
+
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1735 495 1732 495 1732 492 1730 492 1730 495 1727 495 1727 497 1730 497 1730 500 1732 500 1732 497 1735 497 1735 495"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1605 613 1602 613 1602 610 1600 610 1600 613 1597 613 1597 615 1600 615 1600 618 1602 618 1602 615 1605 615 1605 613"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1820 999 1817 999 1817 996 1815 996 1815 999 1812 999 1812 1001 1815 1001 1815 1004 1817 1004 1817 1001 1820 1001 1820 999"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="2038 835 2035 835 2035 832 2033 832 2033 835 2030 835 2030 837 2033 837 2033 840 2035 840 2035 837 2038 837 2038 835"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="1928 804 1925 804 1925 801 1923 801 1923 804 1920 804 1920 806 1923 806 1923 809 1925 809 1925 806 1928 806 1928 804"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="2137 570 2134 570 2134 567 2132 567 2132 570 2129 570 2129 572 2132 572 2132 575 2134 575 2134 572 2137 572 2137 570"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1821 603 1818 603 1818 600 1816 600 1816 603 1813 603 1813 605 1816 605 1816 608 1818 608 1818 605 1821 605 1821 603"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="1967 468 1964 468 1964 465 1962 465 1962 468 1959 468 1959 470 1962 470 1962 473 1964 473 1964 470 1967 470 1967 468"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="772"
+              cy="720"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="630"
+              cy="683"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="758"
+              cy="936"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="984"
+              cy="1040"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1442"
+              cy="1047"
+              r="1"
+              fill="#34b3e4"
+            />
+            <circle
+              className="planet"
+              cx="1620"
+              cy="1064"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1911"
+              cy="989"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1897"
+              cy="886"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1673"
+              cy="696"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1907"
+              cy="524"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2024"
+              cy="996"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2172"
+              cy="906"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="881"
+              cy="593"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="432"
+              cy="640"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="720"
+              cy="792"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="396"
+              cy="748"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="894"
+              cy="954"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="704"
+              cy="950"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="901"
+              cy="1212"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1320"
+              cy="1107"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="858"
+              cy="750"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1705"
+              cy="1163"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1946"
+              cy="903"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1950"
+              cy="683"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1716"
+              cy="454"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1651"
+              cy="532"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1106"
+              cy="465"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="842"
+              cy="532"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="531"
+              cy="608"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="597"
+              cy="512"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="756"
+              cy="601"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="982"
+              cy="558"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="623"
+              cy="519"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1495"
+              cy="550"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1277"
+              cy="486"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1448"
+              cy="454"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1820"
+              cy="857"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2028"
+              cy="616"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1174"
+              cy="1074"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1217"
+              cy="1148"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1414"
+              cy="1088"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1727"
+              cy="976"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1693"
+              cy="832"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1836"
+              cy="761"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1838"
+              cy="665"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2113"
+              cy="772"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2140"
+              cy="497"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1880"
+              cy="465"
+              r="1"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="2230 151 2227 151 2227 148 2225 148 2225 151 2222 151 2222 153 2225 153 2225 156 2227 156 2227 153 2230 153 2230 151"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="2100 269 2097 269 2097 266 2095 266 2095 269 2092 269 2092 271 2095 271 2095 274 2097 274 2097 271 2100 271 2100 269"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="2316 259 2313 259 2313 256 2311 256 2311 259 2308 259 2308 261 2311 261 2311 264 2313 264 2313 261 2316 261 2316 259"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="2462 124 2459 124 2459 121 2457 121 2457 124 2454 124 2454 126 2457 126 2457 129 2459 129 2459 126 2462 126 2462 124"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2168"
+              cy="352"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2402"
+              cy="180"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2445"
+              cy="339"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2211"
+              cy="110"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2146"
+              cy="188"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2523"
+              cy="272"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2333"
+              cy="321"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2375"
+              cy="121"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1901"
+              cy="1133"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1626"
+              cy="1172"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1871"
+              cy="1077"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="862"
+              cy="1077"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1059"
+              cy="1185"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="644"
+              cy="908"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="416"
+              cy="833"
+              r="1"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1756 281 1753 281 1753 278 1751 278 1751 281 1748 281 1748 283 1751 283 1751 286 1753 286 1753 283 1756 283 1756 281"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1893 355 1890 355 1890 352 1888 352 1888 355 1885 355 1885 357 1888 357 1888 360 1890 360 1890 357 1893 357 1893 355"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="362 195 359 195 359 192 357 192 357 195 354 195 354 197 357 197 357 200 359 200 359 197 362 197 362 195"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="680 180 677 180 677 177 675 177 675 180 672 180 672 182 675 182 675 185 677 185 677 182 680 182 680 180"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="454 282 451 282 451 279 449 279 449 282 446 282 446 284 449 284 449 287 451 287 451 284 454 284 454 282"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="869 204 866 204 866 201 864 201 864 204 861 204 861 206 864 206 864 209 866 209 866 206 869 206 869 204"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="739 322 736 322 736 319 734 319 734 322 731 322 731 324 734 324 734 327 736 327 736 324 739 324 739 322"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1271 279 1268 279 1268 276 1266 276 1266 279 1263 279 1263 281 1266 281 1266 284 1268 284 1268 281 1271 281 1271 279"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="955 312 952 312 952 309 950 309 950 312 947 312 947 314 950 314 950 317 952 317 952 314 955 314 955 312"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1101 177 1098 177 1098 174 1096 174 1096 177 1093 177 1093 179 1096 179 1096 182 1098 182 1098 179 1101 179 1101 177"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1041"
+              cy="233"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="485"
+              cy="169"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="850"
+              cy="163"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="785"
+              cy="241"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="629"
+              cy="259"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="312"
+              cy="252"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="582"
+              cy="163"
+              r="1"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="102 108 99 108 99 105 97 105 97 108 94 108 94 110 97 110 97 113 99 113 99 110 102 110 102 108"
+              fill="#caedff"
+            />
+            <polygon
+              className="star fast"
+              points="420 93 417 93 417 90 415 90 415 93 412 93 412 95 415 95 415 98 417 98 417 95 420 95 420 93"
+                fill="#caedff"
+            />
+            <circle
+              className="planet"
+              cx="225"
+              cy="82"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="322"
+              cy="76"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1274"
+              cy="206"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1014"
+              cy="174"
+              r="1"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="1027 64 1024 64 1024 61 1022 61 1022 64 1019 64 1019 66 1022 66 1022 69 1024 69 1024 66 1027 66 1027 64"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="1649 200 1646 200 1646 197 1644 197 1644 200 1641 200 1641 202 1644 202 1644 205 1646 205 1646 202 1649 202 1649 200"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="1889 150 1886 150 1886 147 1884 147 1884 150 1881 150 1881 152 1884 152 1884 155 1886 155 1886 152 1889 152 1889 150"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1879"
+              cy="204"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1737"
+              cy="167"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1539"
+              cy="124"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1827"
+              cy="276"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1503"
+              cy="232"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1965"
+              cy="234"
+              r="2"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="359 802 356 802 356 799 354 799 354 802 351 802 351 804 354 804 354 807 356 807 356 804 359 804 359 802"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="317 676 314 676 314 673 312 673 312 676 309 676 309 678 312 678 312 681 314 681 314 678 317 678 317 676"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star slow"
+              points="147 574 144 574 144 571 142 571 142 574 139 574 139 576 142 576 142 579 144 579 144 576 147 576 147 574"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="87"
+              cy="630"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="130"
+              cy="789"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="208"
+              cy="722"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="18"
+              cy="771"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="320"
+              cy="603"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="60"
+              cy="571"
+              r="1"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="280 375 277 375 277 372 275 372 275 375 272 375 272 377 275 377 275 380 277 380 277 377 280 377 280 375"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="348"
+              cy="458"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="326"
+              cy="294"
+              r="1"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="73 461 70 461 70 458 68 458 68 461 65 461 65 463 68 463 68 466 70 466 70 463 73 463 73 461"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="69 256 66 256 66 253 64 253 64 256 61 256 61 258 64 258 64 261 66 261 66 258 69 258 69 256"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="59"
+              cy="310"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="145"
+              cy="340"
+              r="2"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="2278 837 2275 837 2275 834 2273 834 2273 837 2270 837 2270 839 2273 839 2273 842 2275 842 2275 839 2278 839 2278 837"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="2510 810 2507 810 2507 807 2505 807 2505 810 2502 810 2502 812 2505 812 2505 815 2507 815 2507 812 2510 812 2510 810"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2450"
+              cy="866"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2259"
+              cy="796"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2423"
+              cy="807"
+              r="1"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star medium"
+              points="2299 623 2296 623 2296 620 2294 620 2294 623 2291 623 2291 625 2294 625 2294 628 2296 628 2296 625 2299 625 2299 623"
+              fill="#0072d3"
+            />
+            <polygon
+              className="star fast"
+              points="2436 697 2433 697 2433 694 2431 694 2431 697 2428 697 2428 699 2431 699 2431 702 2433 702 2433 699 2436 699 2436 697"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2422"
+              cy="546"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2370"
+              cy="618"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="2508"
+              cy="576"
+              r="2"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1638"
+              cy="92"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="1523"
+              cy="317"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="535"
+              cy="1028"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="670"
+              cy="1040"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="818"
+              cy="1179"
+              r="1"
+              fill="#0072d3"
+            />
+            <circle
+              className="planet"
+              cx="968"
+              cy="888"
+              r="1"
+              fill="#0072d3"
+            />
+</svg>
